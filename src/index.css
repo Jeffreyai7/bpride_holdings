@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  /* colors */
+  --bpyellow-dark: #febd2d;
+  --bpyellow-light: #d0aa65;
+  --bpdark-light: #1e1e1e80;
+  --bpdark-dark: #1e1e1e;
+
+  /* font sizes suffix M for Mobile and  D Desktop */
+
+  /* Hero Section */
+  --headingTextM: 2rem;
+  --headingTextD: 4rem;
+  --bigHeadingtextM: 3rem;
+  --bigHeadingtextD: 6rem;
+
+  /* Main Section */
+  --paragtextM: 1rem;
+  --paragtextD: 1.5rem;
+  --boxtextM: 0.6rem;
+  --boxtextD: 0.75rem;
+  --boxHeadingtextM: 0.8125rem;
+  --boxHeadingtextD: 1.25rem;
+  --boxsubheadingtextM: 1.25rem;
+  --boxsubheadingtextD: 2.25rem;
+  --boxbuttonM: 0.424rem;
+  --boxbuttonD: 0.549rem;
+
+  /* font weights */
+  --font5: 500;
+  --font6: 600;
+  --font8: 800;
+}
