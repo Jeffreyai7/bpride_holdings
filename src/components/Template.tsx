@@ -1,18 +1,18 @@
-import { ReactElement, ReactNode } from 'react'
+import { ReactElement} from 'react'
 import Header from './Header';
 import Footer from './Footer';
+import { Outlet } from 'react-router-dom';
 
 interface  Template {
     footer?: ReactElement;
     header?: ReactElement;
-    children: ReactNode;
 }
 
-const Template = ({children, footer, header}: Template) => {
+const Template = ({footer, header}: Template) => {
   return (
     <div>
     {header ? header : <Header/> }  
-    {children}
+    <Outlet/>
     {footer ? footer : <Footer/> }  
     </div>
   )

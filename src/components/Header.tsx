@@ -1,10 +1,11 @@
-import Logopanel from "./logopanel"
+import Logopanel from "./Logopanel"
+import Navbar from "./navbar"
 
 const Header = () => {
   return (
     <div>
       <Logopanel/>
-      
+      <Navbar/>
     </div>
   )
 }
