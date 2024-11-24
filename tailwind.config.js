@@ -29,6 +29,14 @@ export default {
         boxbuttonM: "var(--boxbuttonM)", 
         boxbuttonD:'var(--boxbuttonD)' 
       },
+      backgroundImage:{
+        realestate:"url(src/assets/images/realestatef.png)",
+        digital:"url(src/assets/images/digitalf.png)",
+        academy:"url(src/assets/images/academyf.png)",
+        circle:"url(src/assets/images/Ellipsecir.png)",
+        blurcirb:"url(src/assets/images/Ellipseb.png)",
+        blurcirs:"url(src/assets/images/Ellipsesm.png)",
+      }
 
     },
   },
