@@ -2,8 +2,8 @@
 const FeatureVideo = () => {
   return (
     <div>
-        <div>
-            <img src="src\assets\images\octicon.png" alt="" />
+        <div className="w-[80%] max-w-[62.5rem] mx-auto py-48">
+            <img src="src\assets\images\threep.png" alt="play" />
         </div>
     </div>
   )

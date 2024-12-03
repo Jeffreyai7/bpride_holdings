@@ -59,7 +59,25 @@ export const cardInfo = [
 ]
 
 
-const coreValues = [
+export const blogposts =[
+{
+    id: 1,
+    title: "step-by-step guide on how to open a X business",
+    imgurl:"src/assets/images/ximg.png",
+    category: "Digital Marketing"
 
-    
+},
+{
+    id: 2,
+    title: "step-by-step guide on how to use Snapchat for business",
+    imgurl:"src/assets/images/snap.png",
+    category: "Digital Marketing"
+
+},
+{
+    id: 3,
+    title: "step-by-step guide on how to open a X business",
+    imgurl:"src/assets/images/fbimg.png",
+    category: "Digital Marketing"
+}
 ]
