@@ -5,6 +5,7 @@ import Corevalues from "../components/Corevalues"
 import FeatureVideo from "../components/FeatureVideo"
 import Herosection from "../components/Herosection"
 import MessageCom from "../components/MessageCom"
+import Newsletter from "../components/Newsletter"
 import Ourservicescomp from "../components/Ourservicescomp"
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
       <Choose/>
       <FeatureVideo/>
       <Blogcomp/>
+      <Newsletter/>
     </div>
   )
 }
