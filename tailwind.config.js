@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  mode: 'jit', // Enable JIT mode
   content: [
     "./*.html", // Include all HTML files in the root directory
     "./src/**/*.{js,ts,jsx,tsx}", // Include any JS/TS/React files
@@ -27,12 +28,15 @@ export default {
         boxsubheadingtextM: "var(--boxsubheadingtextM)",
         boxsubheadingtextD: "var(--boxsubheadingtextD)",
         boxbuttonM: "var(--boxbuttonM)", 
-        boxbuttonD:'var(--boxbuttonD)' 
+        boxbuttonD:'var(--boxbuttonD)' ,
+        responsive: 'clamp(2rem, 4.2vw, 4rem)',
+        responsivetext: 'clamp(1rem, 2vw, 1.5rem)'
       },
       backgroundImage:{
         realestate:"url(src/assets/images/realestatef.png)",
         digital:"url(src/assets/images/digitalf.png)",
         academy:"url(src/assets/images/academyf.png)",
+        web:"url(src/assets/images/webhosting.png)",
         circle:"url(src/assets/images/Ellipsecir.png)",
         blurcirb:"url(src/assets/images/Ellipseb.png)",
         blurcirs:"url(src/assets/images/Ellipsesm.png)",

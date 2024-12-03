@@ -1,7 +1,7 @@
 import { cn } from "../../utils";
 
 interface Props {
-    children: React.ReactNode;
+    children?: React.ReactNode;
     className?: string;
 }
 

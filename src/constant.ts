@@ -1,3 +1,4 @@
+
 export const links = [
     {
         path: "/",
@@ -22,35 +23,43 @@ export const links = [
 ]
 
 
-export const heroInfo = [
+export const cardInfo = [
     {
-        id: 1,
-        smalltext:"We are the leading",
+        id: "01",
         largetext:"Digital Agency",
-        info: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium nam dolor eveniet ab laboriosam.",
-        imgurl: "url(\src\assets\images\digitalf.png)"
+        paragraph: "Getting an experienced and dedicated Dev. team for your tech business or idea just got easier. Our team of experienced Product designers...",
+        imgurl: "src/assets/images/digitalsec.png",
+        imglogo: "src/assets/images/Vector.png"
+
     },
     {
-        id: 2,
-        smalltext:"We Provide Services in",
+        id:"02",
         largetext:"Real Estate",
-        info: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium nam dolor eveniet ab laboriosam.",
-        imgurl: "url(\assets\images\realestatef.png)"
+        paragraph: "Rapidly increase sales for your brand and businesses when you sign up for our Digital Marketing and SEO services.",
+        imgurl: "src/assets/images/realestatesec.png",
+        imglogo: "src/assets/images/nimbus_marketing.png"
+
     },
     {
-        id: 3,
-        smalltext:"We offer an Effective",
+        id: "03",
         largetext:"Academy",
-        info: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium nam dolor eveniet ab laboriosam.",
-        imgurl: "url(\src\assets\images\academyf.png)"
-        
+        paragraph: "Get your Business Model Canvas, Business plan, Company Profiling, Pitch deck and other very relevant documents written by some of",
+        imgurl: "src/assets/images/academysec.png",
+        imglogo: "src/assets/images/ci_chart-line.png"
+
     },
     {
-        id: 4,
-        smalltext:"We offer services in",
+        id: "04",
         largetext:"Web Hosting",
-        info: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium nam dolor eveniet ab laboriosam.",
-        imgurl: "\src\assets\images\webhosting.png"
-    }
+        paragraph: "Getting an experienced and dedicated Dev. team for your tech business or idea just got easier. Our team of experienced Product designers...",
+        imgurl: "src/assets/images/webhosting.png",
+        imglogo: "src/assets/images/ci_chart-line.png"
+    },
+    
 ]
 
+
+const coreValues = [
+
+    
+]
