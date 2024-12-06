@@ -18,7 +18,7 @@ const Button = ({
     <>
       <button
         className={cn(
-          "block bg-bpyellowdark text-nowrap  text-[.75rem]  rounded-[20px] transition-shadow",
+          "block bg-bpyellowdark text-nowrap  text-[.75rem]  rounded-[20px] cursor-pointer   transition-shadow",
           className,
         )}
         onClick={onClick}

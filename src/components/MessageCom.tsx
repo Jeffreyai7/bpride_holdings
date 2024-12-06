@@ -1,10 +1,10 @@
 
 const MessageCom = () => {
   return (
-    <div className="flex flex-col md:flex-row gap-4 px-4 pt-4 pb-16">
+    <div className="flex flex-col md:flex-row gap-4 px-4 pt-4 pb-16 mb-10">
         <div className="flex-1">
             <h1 className="text-responsive">CEO Message</h1>
-            <p className="text-responsivetext">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            <p className="text-responsivetext text-bpdarklight">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                sed deiusmod tempor incididunt ut labore et dolore magna aliqua.
                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
@@ -17,13 +17,17 @@ const MessageCom = () => {
               </div>
             </div>
         </div>
-        <div className="flex-1 relative">
-            <img src="src\assets\images\ceoback.png" alt="" />
-            <div className="absolute top-0 right-5">
-            <img className="w-[17.5rem] md:w-[21.8rem] " src="src\assets\images\ceo.png" alt="ceo" />
-            <img className="w-[17.5rem] md:w-[21.8rem]" src="src\assets\images\horibar.png" alt="bar" />
-            <img className="relative bottom-10 md:bottom-20 h-[24px] md:h-[58px]" src="src\assets\images\Rectanglehoriyellow.png" alt="" />
+        <div className="flex-1 flex justify-center items-baseline">
+          <div className="relative w-[20rem]">
+            <div>
+              <img src="src\assets\images\ceoback.png" alt="" />
             </div>
+            <div className="absolute top-0 right-5">
+            <img className="w-[17.5rem] md:w-[21.8rem]" src="src\assets\images\ceo.png" alt="ceo" />
+            <img className="w-[17.5rem] md:w-[21.8rem]" src="src\assets\images\horibar.png" alt="bar" />
+            <img className="relative bottom-10 md:bottom-20 h-[24px] md:h-[58px]" src="src\assets\images\Rectanglehoriyellow.png" alt="b" />
+            </div>
+          </div>
         </div>
     </div>
   )

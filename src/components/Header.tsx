@@ -3,7 +3,7 @@ import Navbar from "./Navbar"
 
 const Header = () => {
   return (
-    <div className="bg-bpblack relative z-50">
+    <div className="bg-bpblack z-50 sticky top-0 left-0 right-0">
       <Logopanel/>
       <Navbar/>
     </div>

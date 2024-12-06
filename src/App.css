@@ -50,7 +50,7 @@
 
 /* Card styles */
 .card {
-  min-width: 320px; /* Set a consistent width for cards */
+  min-width: 280px; /* Set a consistent width for cards */
   display: flex;
   background-color: white;
   flex-direction: column;

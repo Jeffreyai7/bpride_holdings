@@ -7,7 +7,7 @@ const Blogcomp = () => {
   return (
     <div>
         <div className='bg-[#FEBD2D1A] py-10'>
-            <h1 className='text-[0.9rem] md:text-[1.5rem] font-medium text-center  mb-10'>Our Blog Posts</h1>
+            <h1 className='text-[0.9rem] md:text-[1.5rem] font-medium text-center mb-10 underline decoration-bpyellowdark decoration-3'>Our Blog Posts</h1>
             <div className='card-container'>
             {
                 blogposts.map(blog => {

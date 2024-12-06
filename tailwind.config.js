@@ -40,6 +40,7 @@ export default {
         circle:"url(src/assets/images/Ellipsecir.png)",
         blurcirb:"url(src/assets/images/Ellipseb.png)",
         blurcirs:"url(src/assets/images/Ellipsesm.png)",
+        aboutbg:"url(src/assets/images/backgd.jpg)"
       }
 
     },

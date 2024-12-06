@@ -7,7 +7,7 @@ import Circle from "./atoms/Circle";
 const Corevalues = () => {
   return (
     <div className="pb-10">
-        <h1 className="text-responsive font-semibold text-center" >Our core values</h1>
+        <h1 className="text-responsive font-semibold text-center underline decoration-bpyellowdark decoration-4 underline-offset-8 mb-3" >Our core values</h1>
         <div className="card-container gap-6 p-6">
             <div className="card gap-4 p-4  w-[18.125rem] md:w-[23.5rem] justify-center">
                 <div>
@@ -17,7 +17,7 @@ const Corevalues = () => {
                     </Circle>
                 </div>
                 <h1 className="font-semibold">Curiosity</h1>
-                <p className="text-[#1E1E1E]">we are always curious about what is going on in the mind of our audience, because we want to stay on top of it.</p>
+                <p className="text-bpdarklight">we are always curious about what is going on in the mind of our audience, because we want to stay on top of it.</p>
                 </div>
             </div>
             <div className="card gap-4  p-4 w-[18.125rem] md:w-[23.5rem] justify-center ">
@@ -28,7 +28,7 @@ const Corevalues = () => {
                     </Circle>
                 </div>
                 <h1 className="font-semibold">Customer-focused</h1>
-                <p className="text-[#1E1E1E]">our customers drive our decisions every step of the way. We pay close attention to their needs and ensure to satisfy them maximally.</p>
+                <p className="text-bpdarklight">our customers drive our decisions every step of the way. We pay close attention to their needs and ensure to satisfy them maximally.</p>
                 </div>
             </div>
             <div className="card gap-4 p-4 w-[18.125rem]  md:w-[23.5rem] justify-center">
@@ -38,12 +38,12 @@ const Corevalues = () => {
                     <HiOutlineLightBulb size={30} className="w-16"/>
                     </Circle>
                 </div>
-                <h1 className="font-semibold">Understanding</h1>
-                <p className="text-[#1E1E1E]">our first call is to seek understanding of what our clients need and what their prospects want. This positions us to deliver a more customer-centric solution.</p>
+                <h1 className="font-semibold">Innovation</h1>
+                <p className="text-bpdarklight">Excellence to us is about doing it better than it's ever been done. We are our own competition and we are always getting better.</p>
                 </div>
             </div>
         </div>
-        <div className="grid place-content-end pr-2 "><Button className="px-5">See all</Button></div>
+        <div className="grid place-content-end pr-2 "><Button className="px-6 py-2 ">See all</Button></div>
     </div>
   )
 }

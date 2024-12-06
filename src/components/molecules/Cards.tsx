@@ -16,9 +16,9 @@ const Cards = () => {
                         <div><img className="w-[12.5rem] h-[7.5rem] md:w-[16.4rem] md:h-[9.81rem]"  src={card.imgurl} alt="me" /></div>
                     </div>
                     <div className="flex flex-col gap-4 px-2">
-                    <h1 className="text-[1rem] md:text-[1.25rem]">{card.largetext}</h1>
-                    <p className="text-[0.56rem] md:text-[0.75rem] text-[#1E1E1E66] leading-relaxed  mb-6">{card.paragraph}</p>
-                    <Button className="bg-white text-[#FEBD2D] font-semibold w-[4.4rem] h-[1.5rem] md:w-[5.8rem] md:h-[1.88rem] p-[0.2rem] ">Read More</Button>
+                    <h1 className=" font-semibold text-[1rem] md:text-[1.25rem]">{card.largetext}</h1>
+                    <p className="text-[0.56rem] md:text-[0.75rem] text-bpdarklight leading-relaxed  mb-6">{card.paragraph}</p>
+                    <Button className="bg-white text-bpyellowdark font-semibold w-[4.4rem] h-[1.5rem] md:w-[5.8rem] md:h-[1.88rem] p-[0.2rem] border border-bpyellowdark ">Read More</Button>
                     </div>
                 </div>
             )
