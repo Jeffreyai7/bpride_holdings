@@ -8,9 +8,11 @@ import MessageCom from "../components/MessageCom"
 import Newsletter from "../components/Newsletter"
 import Ourservicescomp from "../components/Ourservicescomp"
 
+
 const Home = () => {
+
   return (
-    <div className="">
+    <div>
       <Herosection/>
       <Aboutcomp/>
       <Ourservicescomp/>

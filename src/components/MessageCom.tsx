@@ -1,7 +1,23 @@
+import { motion } from 'framer-motion';
+import { useInView } from "react-intersection-observer";
+
+
 
 const MessageCom = () => {
+
+  const { ref, inView } = useInView({
+    triggerOnce: true, // Trigger animation once when it enters the viewport
+    threshold: 0.5, // Trigger when 50% of the component is in view
+  });
+
+
   return (
-    <div className="flex flex-col md:flex-row gap-4 px-4 pt-4 pb-16 mb-10">
+    <motion.div 
+      ref={ref}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: inView ? 1 : 0 }}
+      transition={{ duration: 1 }}
+      className="flex flex-col md:flex-row gap-4 px-4 pt-4 pb-16 mb-10">
         <div className="flex-1">
             <h1 className="text-responsive">CEO Message</h1>
             <p className="text-responsivetext text-bpdarklight">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -29,7 +45,7 @@ const MessageCom = () => {
             </div>
           </div>
         </div>
-    </div>
+    </motion.div>
   )
 }
 

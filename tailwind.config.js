@@ -29,8 +29,8 @@ export default {
         boxsubheadingtextD: "var(--boxsubheadingtextD)",
         boxbuttonM: "var(--boxbuttonM)", 
         boxbuttonD:'var(--boxbuttonD)' ,
-        responsive: 'clamp(2rem, 4.2vw, 4rem)',
-        responsivetext: 'clamp(1rem, 2vw, 1.5rem)'
+        responsive: 'clamp(2rem, 4.2vw, 3rem)',
+        responsivetext: 'clamp(0.8rem, 2vw, 1.2rem)'
       },
       backgroundImage:{
         realestate:"url(src/assets/images/realestatef.png)",
@@ -41,7 +41,10 @@ export default {
         blurcirb:"url(src/assets/images/Ellipseb.png)",
         blurcirs:"url(src/assets/images/Ellipsesm.png)",
         aboutbg:"url(src/assets/images/backgd.jpg)"
-      }
+      },
+      boxShadow: {
+        'large': '0 0 500px 500px rgba(0, 0, 0, 0.5)',
+      },
 
     },
   },

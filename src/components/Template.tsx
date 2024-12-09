@@ -8,7 +8,10 @@ interface  Template {
     header?: ReactElement;
 }
 
+
+
 const Template = ({footer, header}: Template) => {
+
   return (
     <div>
     {header ? header : <Header/> }  

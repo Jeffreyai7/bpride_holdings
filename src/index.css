@@ -12,14 +12,14 @@
   /* font sizes suffix M for Mobile and  D Desktop */
 
   /* Hero Section */
-  --headingTextM: 2rem;
-  --headingTextD: 4rem;
+  --headingTextM: 1.5rem;
+  --headingTextD: 3rem;
   --bigHeadingtextM: 3rem;
   --bigHeadingtextD: 6rem;
 
   /* Main Section */
-  --paragtextM: 1rem;
-  --paragtextD: 1.5rem;
+  --paragtextM: 0.8rem;
+  --paragtextD: 1rem;
   --boxtextM: 0.6rem;
   --boxtextD: 0.75rem;
   --boxHeadingtextM: 0.8125rem;
@@ -33,4 +33,8 @@
   --font5: 500;
   --font6: 600;
   --font8: 800;
+}
+
+body {
+  font-family: "Syne", sans-serif;
 }

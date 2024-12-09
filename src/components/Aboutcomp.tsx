@@ -1,8 +1,21 @@
 import Button from './atoms/Button'
+import { motion } from 'framer-motion';
+import { useInView } from "react-intersection-observer";
 
 const Aboutcomp = () => {
+ 
+  const { ref, inView } = useInView({
+    triggerOnce: true, // Trigger animation once when it enters the viewport
+    threshold: 0.5, // Trigger when 50% of the component is in view
+  });
+
   return (
-    <div className='relative z-10 flex flex-col md:flex-row gap-40 md:gap-4 pt-4 pb-32 bg-white'>
+    <motion.div
+      ref={ref}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: inView ? 1 : 0 }}
+      transition={{ duration: 1 }}
+     className='relative z-10 flex flex-col md:flex-row gap-40 md:gap-4 pt-4 pb-32 bg-white'>
         <div className=' flex-1 flex items-center justify-center overflow-x-clip'>
         <div className='relative  '>
             <div><img className='h-72 w-[280px] md:w-[431px] md:h-[440px]' src="src\assets\images\people.png" alt="" /></div>
@@ -30,11 +43,11 @@ const Aboutcomp = () => {
              in navigating the ever-evolving landscape of business.
             </p>
             <div className='flex justify-center md:justify-start md:w-[70%] md:mx-auto'>
-            <Button className='text-paragtextM w-[139px] h-12  md:w-44 md:h-[60px] md:text-paragtextD'>Read More</Button>
+            <Button className='text-paragtextM w-[139px]  md:w-44 md:text-paragtextD py-2'>Read More</Button>
             </div>
         </div>
         </div>
-    </div>
+    </motion.div>
   )
 }
 

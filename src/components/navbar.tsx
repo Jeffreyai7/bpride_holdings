@@ -36,7 +36,7 @@ const Navbar = () => {
             links.map((link) => {
               return (
                 <li key={link.name}>
-                  <Link className="md:text-paragtextM xl:text-paragtextD font-semibold hover:text-bpyellowdark transition-all" to={link.path}>{link.name}</Link>
+                  <Link className="md:text-paragtextM  font-semibold hover:text-bpyellowdark transition-all" to={link.path}>{link.name}</Link>
                 </li>
               )
             })
@@ -46,12 +46,12 @@ const Navbar = () => {
           <img onClick={() => setIsMenuOpen(!isMenuOpen)} className="block md:hidden w-[26px] h-[26px]" src="src\assets\images\hamburg.png" alt="hamburger" />
           <ul 
           ref={menuRef}
-          className={`md:hidden  absolute top-16 left-0 w-full bg-white shadow-lg transform transition-all duration-300 ease-in-out 
+          className={`md:hidden  absolute top-16 left-0 w-full bg-bpblack text-white shadow-lg transform transition-all duration-300 ease-in-out 
           ${isMenuOpen === true ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0"}`}>
           {
             links.map((link) => {
               return (
-                <li key={link.name}>
+                <li className="mb-5 pl-3 text-center underline decoration-2 un underline-offset-4 " key={link.name}>
                   <Link className="md:text-paragtextM xl:text-paragtextD font-semibold hover:text-bpyellowdark transition-all" to={link.path}>{link.name}</Link>
                 </li>
               )
