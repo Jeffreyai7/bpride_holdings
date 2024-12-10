@@ -1,5 +1,5 @@
-import Button from "./atoms/Button"
-import Cards from "./molecules/Cards"
+import Button from "../atoms/Button"
+import Cards from "../molecules/Cards"
 import { BsArrowRight } from "react-icons/bs"
 import { motion } from 'framer-motion';
 

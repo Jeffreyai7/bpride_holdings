@@ -1,6 +1,6 @@
 import { FaSearch } from "react-icons/fa"
-import Input from "./atoms/Input"
-import { links } from "../constant"
+import Input from "../atoms/Input"
+import { links } from "../../constant"
 import { Link} from "react-router-dom"
 import { useEffect, useRef, useState } from "react"
 

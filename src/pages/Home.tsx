@@ -1,12 +1,12 @@
-import Aboutcomp from "../components/Aboutcomp"
-import Blogcomp from "../components/Blogcomp"
-import Choose from "../components/Choose"
-import Corevalues from "../components/Corevalues"
-import FeatureVideo from "../components/FeatureVideo"
-import Herosection from "../components/Herosection"
-import MessageCom from "../components/MessageCom"
-import Newsletter from "../components/Newsletter"
-import Ourservicescomp from "../components/Ourservicescomp"
+import Aboutcomp from "../components/organisms/Aboutcomp"
+import Blogcomp from "../components/organisms/Blogcomp"
+import Choose from "../components/organisms/Choose"
+import Corevalues from "../components/organisms/Corevalues"
+import FeatureVideo from "../components/organisms/FeatureVideo"
+import Herosection from "../components/organisms/Herosection"
+import MessageCom from "../components/organisms/MessageCom"
+import Newsletter from "../components/organisms/Newsletter"
+import Ourservicescomp from "../components/organisms/Ourservicescomp"
 
 
 const Home = () => {

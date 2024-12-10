@@ -1,4 +1,4 @@
-import Circle from "./atoms/Circle"
+import Circle from "../atoms/Circle"
 
 const Choose = () => {
   return (

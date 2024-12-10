@@ -1,4 +1,4 @@
-import Button from './atoms/Button'
+import Button from '../atoms/Button'
 import { motion } from 'framer-motion';
 import { useInView } from "react-intersection-observer";
 

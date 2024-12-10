@@ -1,8 +1,8 @@
 import { SlBadge } from "react-icons/sl";
 import { HiOutlineLightBulb } from "react-icons/hi";
 import { TbMapSearch } from "react-icons/tb";
-import Button from "./atoms/Button";
-import Circle from "./atoms/Circle";
+import Button from "../atoms/Button";
+import Circle from "../atoms/Circle";
 
 
 const Corevalues = () => {

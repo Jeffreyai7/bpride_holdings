@@ -1,7 +1,7 @@
 import { CgCalendar } from 'react-icons/cg'
-import Button from './atoms/Button'
+import Button from '../atoms/Button'
 import { BsArrowRight } from 'react-icons/bs'
-import { blogposts } from '../constant'
+import { blogposts } from '../../constant'
 
 const Blogcomp = () => {
   return (

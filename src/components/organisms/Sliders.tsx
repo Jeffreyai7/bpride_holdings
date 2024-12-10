@@ -1,6 +1,6 @@
 import Slider from "react-slick";
-import Button from "./atoms/Button";
-import Circle from "./atoms/Circle";
+import Button from "../atoms/Button";
+import Circle from "../atoms/Circle";
 
 const Sliders = () => {
   const sliderSettings = {
