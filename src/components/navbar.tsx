@@ -4,7 +4,7 @@ import { links } from "../constant"
 import { Link} from "react-router-dom"
 import { useEffect, useRef, useState } from "react"
 
-const Navbar = () => {
+ const Navbar = () => {
  const [isMenuOpen, setIsMenuOpen] =  useState(false);
  const menuRef = useRef<HTMLUListElement>(null); // Reference to the mobile menu
 

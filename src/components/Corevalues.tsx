@@ -4,9 +4,12 @@ import { TbMapSearch } from "react-icons/tb";
 import Button from "./atoms/Button";
 import Circle from "./atoms/Circle";
 
+
 const Corevalues = () => {
+
   return (
-    <div className="pb-10">
+    <div 
+    className="pb-10">
         <h1 className="text-responsive font-semibold text-center underline decoration-bpyellowdark decoration-4 underline-offset-8 mb-3" >Our core values</h1>
         <div className="card-container gap-6 p-6">
             <div className="card gap-4 p-4  w-[18.125rem] md:w-[23.5rem] justify-center">

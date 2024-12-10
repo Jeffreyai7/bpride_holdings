@@ -1,7 +1,7 @@
 
 const Blog = () => {
   return (
-    <div>Blog</div>
+    <div className="text-center text-[3rem] text-bpyellowdark h-screen" >Blog Coming soon.....</div>
   )
 }
 

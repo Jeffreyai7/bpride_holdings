@@ -26,7 +26,7 @@ const Sliders = () => {
                                 </div>
                             </div>
                             <div className="text-center md:text-left flex flex-col gap-2 py-8 ml-[2.5rem]">
-                                <div><span className="text-paragtextD text-bpyellowdark font-bold underline decoration-2 underline-offset-8 ">Crafting Business since 1990</span></div>
+                                <div><span className="text-[1.5rem] text-bpyellowdark font-bold underline decoration-2 underline-offset-8 ">...innovations and inventions that rule the world</span></div>
                                 <h1><span className="text-headingTextM md:text-headingTextD font-semibold text-white">We are the leading</span><br />
                                 <span className="md:text-[3rem] text-bigHeadingtextM text-bpyellowdark font-semibold underline decoration-4 decoration-bpyellowdark underline-offset-8">Digital Agency.</span></h1>
                                 <div className="w-[70%] mx-auto md:mx-0 md:w-[50%] text-paragtextM md:text-paragtextD  text-white">From SEO to social media, we deliver measurable results that transform your online presence into a growth engine.</div>
@@ -45,7 +45,7 @@ const Sliders = () => {
                                 </div>
                             </div>
                             <div className="text-center md:text-left flex flex-col gap-2 py-8 ml-[2.5rem]">
-                                <div><span className="text-paragtextD text-bpyellowdark font-semibold underline decoration-2 underline-offset-8 ">Crafting Business since 1990</span></div>
+                                <div><span className="text-[1.5rem] text-bpyellowdark font-semibold underline decoration-2 underline-offset-8 ">...innovations and inventions that rule the world </span></div>
                                 <h1><span className="text-headingTextM md:text-headingTextD font-semibold text-white">We provide services in </span><br />
                                 <span className="md:text-[3rem] text-bigHeadingtextM text-bpyellowdark font-semibold underline decoration-4 decoration-bpyellowdark underline-offset-8">Real Estate.</span></h1>
                                 <div className="w-[70%] mx-auto md:mx-0 md:w-[50%] text-paragtextM md:text-paragtextD  text-white">Discover exceptional properties, trusted agents, and tailored solutions for buying, selling, or renting.</div>
@@ -64,7 +64,7 @@ const Sliders = () => {
                                 </div>
                             </div>
                             <div className="text-center md:text-left flex flex-col gap-2 py-8 ml-[2.5rem]">
-                                <div><span className="text-paragtextD text-bpyellowdark font-semibold underline decoration-2 underline-offset-8 ">Crafting Business since 1990</span></div>
+                                <div><span className="text-[1.5rem] text-bpyellowdark font-semibold underline decoration-2 underline-offset-8 ">...innovations and inventions that rule the world </span></div>
                                 <h1><span className="text-headingTextM md:text-headingTextD font-semibold text-white">We offer an effective</span><br />
                                 <span className="md:text-[3rem] text-bigHeadingtextM text-bpyellowdark font-semibold underline decoration-4 decoration-bpyellowdark underline-offset-8">Academy.</span></h1>
                                 <div className="w-[70%] mx-auto md:mx-0 md:w-[50%] text-paragtextM md:text-paragtextD text-white">Whether you're upskilling, reskilling, or exploring new passions, our academy is your gateway to success.</div>
@@ -83,7 +83,7 @@ const Sliders = () => {
                                 </div>
                             </div>
                             <div className="text-center md:text-left flex flex-col gap-2 py-8 ml-[2.5rem]">
-                                <div><span className="text-paragtextD text-bpyellowdark font-semibold underline decoration-2 underline-offset-8">Crafting Business since 1990</span></div>
+                                <div><span className="text-[1.5rem] text-bpyellowdark font-semibold underline decoration-2 underline-offset-8">...innovations and inventions that rule the world </span></div>
                                 <h1><span className="text-headingTextM md:text-headingTextD font-semibold text-white">We also offer services in</span><br />
                                 <span className="md:text-[3rem] text-bigHeadingtextM text-bpyellowdark font-semibold underline decoration-4 decoration-bpyellowdark underline-offset-8">Web Hosting.</span></h1>
                                 <div className="w-[70%] mx-auto md:mx-0 md:w-[50%] text-paragtextM md:text-paragtextD text-white">Whether you're launching your first website or scaling to millions of visitors, weve got you covered.</div>

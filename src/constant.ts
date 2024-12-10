@@ -17,7 +17,7 @@ export const links = [
         name: "Blog"
     },
     {
-        path: "/contact",
+        path: "#contact",
         name: "Contact"
     }  
 ]

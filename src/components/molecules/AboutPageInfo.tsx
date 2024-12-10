@@ -8,12 +8,26 @@ const AboutPageInfo = () => {
   return (
     <div className="">
     <div className="flex flex-col md:flex-row gap-5 p-5">
-        <p className=" flex-1 text-responsivetext text-bpdarklight">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Autem sequi inventore beatae repellat quibusdam eum natus 
-            impedit dolorum doloremque maiores maxime dolor, 
-            magni aliquam praesentium harum, cupiditate quaerat est nam!
-        </p>
+        <div>
+            <div className="flex-1">
+                <h1 className="text-bpyellowdark text-[2rem]">Vision</h1>
+                <p className=" flex-1 text-responsivetext text-bpdarklight">
+                To intentionally influence business sectors globally,
+                by investing in innovative solutions, companies, and
+                opportunities.
+                </p>
+            </div>
+            <div className="flex-1">
+                <h1 className="text-bpyellowdark text-[2rem]">Mission</h1>
+                <p className=" text-responsivetext text-bpdarklight">
+                To consistently innovate, invent, build and provide solutions to individuals, 
+                corporates and institutions that meet their every day need,
+                 enhance their sustainable growth and that empowers young people through job creation.
+                </p>
+
+            </div>
+
+        </div>
         <div className="flex-1 md:min-w-80">
             <img src="src\assets\images\hero.webp" alt="abouthero" />
         </div>

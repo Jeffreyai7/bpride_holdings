@@ -1,9 +1,11 @@
 import Button from "../components/atoms/Button"
+import Servicehero from "../components/molecules/Servicehero"
 import { serviceposts } from "../constant"
 
 const Services = () => {
   return (
     <div>
+      <Servicehero/>
       <div className="grid grid-cols-1 gap-8 p-5">
         {
           serviceposts.map((post) => {

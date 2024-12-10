@@ -20,16 +20,18 @@ const MessageCom = () => {
       className="flex flex-col md:flex-row gap-4 px-4 pt-4 pb-16 mb-10">
         <div className="flex-1">
             <h1 className="text-responsive">CEO Message</h1>
-            <p className="text-responsivetext text-bpdarklight">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed deiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-               reprehenderit in voluptate velit esse
+            <p className="text-responsivetext text-bpdarklight">As an experienced Brand Strategist, Media Buyer and Marketing Professional, I have had the privilege of working with several small and medium scale businesses in different business sectors for over a decade.
+
+My journey on this career path subtly created a passion in me to see businesses thrive and to build solutions to solve real problems- whether individual, corporate or institutional.
+
+This has been the driving force behind what we're building at Black Pride Holdings, behind the innovative and customer-centric culture of our team, and behind our wild dreams that we eagerly and diligently pursue, every day.
+
+Join us on this journey to empower your business and unlock your full potential. Together, lets thrive!
             </p>
             <div>
               <div className="grid place-content-end">
                 <span className="text-[1rem] md:text-[1.5rem]  ">Stanley Ojika</span>
-                <span className="text-[1rem] md:text-[1.5rem] text-[#FEBD2D]">CEO BlackPride Holdings</span>
+                <span className="text-[1rem] md:text-[1.5rem] text-[#FEBD2D]">Founder/GMD BlackPride Holdings</span>
               </div>
             </div>
         </div>
