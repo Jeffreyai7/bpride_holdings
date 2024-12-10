@@ -18,7 +18,7 @@ const Blogcomp = () => {
                             <div className=''><img className='w-[98%] mx-auto' src={blog.imgurl} alt="image" /></div>
                             <div>
                                 <Button className='bg-[#D6DEF7] font-semibold text-[#3B5FCF] text-[9px] md:text-[12px] p-2'>{blog.category}</Button>
-                                <div className='flex justify-between items-center p-4'><div className='flex gap-4'><div className='flex items-center'><img src="src\assets\images\blackpridelogo.png" className='w-7 h-7' alt="" /><span className='text-[9px] md:text-[12px]'> Black Pride</span></div><div className='flex items-center'> <CgCalendar/><span className='text-[9px] md:text-[12px]'>24th, May</span> </div></div> <Button className='p-2 px-4 text-[9px] md:text-[12px] flex items-center gap-2'>Read <BsArrowRight/> </Button></div>
+                                <div className='flex justify-between items-center p-4'><div className='flex gap-4'><div className='flex items-center'><img src="/images/blackpridelogo.png" className='w-7 h-7' alt="" /><span className='text-[9px] md:text-[12px]'> Black Pride</span></div><div className='flex items-center'> <CgCalendar/><span className='text-[9px] md:text-[12px]'>24th, May</span> </div></div> <Button className='p-2 px-4 text-[9px] md:text-[12px] flex items-center gap-2'>Read <BsArrowRight/> </Button></div>
                             </div>
                         </div>
                     )

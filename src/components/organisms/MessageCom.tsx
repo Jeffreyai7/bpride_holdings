@@ -38,12 +38,12 @@ Join us on this journey to empower your business and unlock your full potential.
         <div className="flex-1 flex justify-center items-baseline">
           <div className="relative w-[20rem]">
             <div>
-              <img src="src\assets\images\ceoback.png" alt="" />
+              <img src="/images/ceoback.png" alt="" />
             </div>
             <div className="absolute top-0 right-5">
-            <img className="w-[17.5rem] md:w-[21.8rem]" src="src\assets\images\ceo.png" alt="ceo" />
-            <img className="w-[17.5rem] md:w-[21.8rem]" src="src\assets\images\horibar.png" alt="bar" />
-            <img className="relative bottom-10 md:bottom-20 h-[24px] md:h-[58px]" src="src\assets\images\Rectanglehoriyellow.png" alt="b" />
+            <img className="w-[17.5rem] md:w-[21.8rem]" src="/images/ceo.png" alt="ceo" />
+            <img className="w-[17.5rem] md:w-[21.8rem]" src="/images/horibar.png" alt="bar" />
+            <img className="relative bottom-10 md:bottom-20 h-[24px] md:h-[58px]" src="/images/Rectanglehoriyellow.png" alt="b" />
             </div>
           </div>
         </div>

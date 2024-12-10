@@ -7,7 +7,7 @@ const TheTeam = () => {
         <div className="card items-center">
             <div className="py-4">
             <div >
-            <img className="w-80 rounded-lg" src="src\assets\images\ceo.png" alt="stan" />
+            <img className="w-80 rounded-lg" src="/images/ceo.png" alt="stan" />
             </div>
             <h1 className="text-bpyellowdark text-paragtextM md:text-paragtextD font-semibold pl-4">Stanley Ojika</h1>
             <span className="text-bpdarklight md:text-paragtextM text-[12px] pb-4 pl-4">CEO/Lead Consultant</span>
@@ -16,7 +16,7 @@ const TheTeam = () => {
         <div className="card items-center">
             <div className="py-4">
             <div>
-            <img className="w-80 rounded-lg" src="src\assets\images\jennifert.jpg" alt="jennifer" />
+            <img className="w-80 rounded-lg" src="/images/jennifert.jpg" alt="jennifer" />
             </div>
             <h1 className="text-bpyellowdark text-paragtextM md:text-paragtextD font-semibold pl-4">Jennifer Obosi</h1>
             <span className="text-bpdarklight md:text-paragtextM text-[12px] pl-4">Accountant</span>
@@ -25,7 +25,7 @@ const TheTeam = () => {
         <div className="card items-center ">
             <div className="py-4">
             <div>
-            <img className="w-80 rounded-lg" src="src\assets\images\martha.jpg" alt="martha" />
+            <img className="w-80 rounded-lg" src="/images/martha.jpg" alt="martha" />
             </div>
             <h1 className="text-bpyellowdark text-paragtextM md:text-paragtextD font-semibold pl-4">Martha Taiwo</h1>
             <span className="text-bpdarklight md:text-paragtextM text-[12px] pl-4">Operations Manager</span>

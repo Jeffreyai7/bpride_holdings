@@ -60,7 +60,7 @@ import { useEffect, useRef, useState } from "react"
         </ul>
             <Input name={"Search"} className="rounded-2xl px-4 w-[75%] bg-white py-2" children={<FaSearch size="20px" color="gray" />} />
             <span className="text-[20px] font-semibold">EN</span>
-            <img className="hidden md:block w-[26px] h-[26px]" src="src\assets\images\hamburg.png" alt="hamburger" />
+            <img className="hidden md:block w-[26px] h-[26px]" src="/images/hamburg.png" alt="hamburger" />
         </div>
     </nav>
   )

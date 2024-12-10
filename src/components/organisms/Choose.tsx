@@ -11,7 +11,7 @@ const Choose = () => {
                 <div>
                 <div>
                     <Circle className="bg-bpyellowdark">
-                    <img className="ml-4" src="src/assets/images/streamline_industry-innovation-and-infrastructure.png" alt="" />
+                    <img className="ml-4" src="/images/streamline_industry-innovation-and-infrastructure.png" alt="" />
                     </Circle>
                 </div> 
                 <h1 className="text-[1.2rem] md:text-[1.5rem] font-semibold">Innovation</h1>
@@ -22,7 +22,7 @@ const Choose = () => {
                 <div>
                 <div>
                     <Circle className="bg-bpyellowdark" >
-                    <img className="ml-4"  src="src\assets\images\fa-regular_thumbs-up.png" alt="" />
+                    <img className="ml-4"  src="/images/fa-regular_thumbs-up.png" alt="" />
                     </Circle>
                 </div>
                 <h1 className="text-[1.2rem] md:text-[1.5rem] font-semibold">Quality</h1>
@@ -33,7 +33,7 @@ const Choose = () => {
                 <div>
                 <div>
                     <Circle className="bg-bpyellowdark">
-                    <img className="ml-4" src="src\assets\images\fa-regular_handshake.png" alt="" />
+                    <img className="ml-4" src="/images/fa-regular_handshake.png" alt="" />
                     </Circle>
                 </div>
                 <h1 className="text-[1.2rem] md:text-[1.5rem] font-semibold">Client-First Approach</h1>

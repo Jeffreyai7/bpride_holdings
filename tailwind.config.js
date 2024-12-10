@@ -33,14 +33,14 @@ export default {
         responsivetext: 'clamp(0.8rem, 2vw, 1.2rem)'
       },
       backgroundImage:{
-        realestate:"url(src/assets/images/realestatef.png)",
-        digital:"url(src/assets/images/digitalf.png)",
-        academy:"url(src/assets/images/academyf.png)",
-        web:"url(src/assets/images/webhosting.png)",
-        circle:"url(src/assets/images/Ellipsecir.png)",
-        blurcirb:"url(src/assets/images/Ellipseb.png)",
-        blurcirs:"url(src/assets/images/Ellipsesm.png)",
-        aboutbg:"url(src/assets/images/backgd.jpg)"
+        realestate:"url(/images/realestatef.png)",
+        digital:"url(/images/digitalf.png)",
+        academy:"url(/images/academyf.png)",
+        web:"url(/images/webhosting.png)",
+        circle:"url(/images/Ellipsecir.png)",
+        blurcirb:"url(/images/Ellipseb.png)",
+        blurcirs:"url(/images/Ellipsesm.png)",
+        aboutbg:"url(/images/backgd.jpg)"
       },
       boxShadow: {
         'large': '0 0 500px 500px rgba(0, 0, 0, 0.5)',

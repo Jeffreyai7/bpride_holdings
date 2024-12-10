@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="grid text-center md:grid-cols-2 md:text-left gap-3  lg:grid-cols-3 w-[90%] mx-auto">
         <div>
           <div className="flex justify-center md:justify-start">
-          <img className="w-[71px] md:w-[88px]" src="src\assets\images\blackpridelogo.png" alt="logo" />
+          <img className="w-[71px] md:w-[88px]" src="/images/blackpridelogo.png" alt="logo" />
           </div>
           <p className="text-center md:text-left">Welcome to Black Pride Digital, your gateway to cutting-edge solutions and unparalleled services.
              We take pride in offering a comprehensive suite of services tailored to meet the diverse needs of 
