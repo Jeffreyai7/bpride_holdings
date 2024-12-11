@@ -36,14 +36,14 @@ import { useEffect, useRef, useState } from "react"
             links.map((link) => {
               return (
                 <li key={link.name}>
-                  <Link className="md:text-paragtextM  font-semibold hover:text-bpyellowdark transition-all" to={link.path}>{link.name}</Link>
+                  <Link className="md:text-[1.1rem]  font-semibold hover:text-bpyellowdark transition-all" to={link.path}>{link.name}</Link>
                 </li>
               )
             })
           }
         </ul> 
         <div className="flex items-center justify-between w-full md:w-[50%]">
-          <img onClick={() => setIsMenuOpen(!isMenuOpen)} className="block md:hidden w-[26px] h-[26px]" src="src\assets\images\hamburg.png" alt="hamburger" />
+          <img onClick={() => setIsMenuOpen(!isMenuOpen)} className="block md:hidden w-[26px] h-[26px]" src="/images/hamburg.png" alt="hamburger" />
           <ul 
           ref={menuRef}
           className={`md:hidden  absolute top-16 left-0 w-full bg-bpblack text-white shadow-lg transform transition-all duration-300 ease-in-out 
